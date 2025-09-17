@@ -321,20 +321,4 @@ class BookingsScreen extends StatelessWidget {
   }
 }
 
-class ProfileScreen extends StatelessWidget {
-  const ProfileScreen({super.key});
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: AppBar(
-        title: const Text('Profile'),
-        backgroundColor: Colors.teal,
-        foregroundColor: Colors.white,
-      ),
-      body: const Center(
-        child: Text('Profile Screen'),
-      ),
-    );
-  }
-}
+// ProfileScreen moved to screens/profile_screen.dart
