@@ -1,4 +1,4 @@
-# my_dart_app
+# Tour App
 
 A new Flutter project.
 
